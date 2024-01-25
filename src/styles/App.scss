@@ -1,0 +1,44 @@
+.questionPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__wrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: wheat;
+    border-radius: 10px;
+  }
+  &__options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    & * {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.resultPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__data {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: wheat;
+    border-radius: 10px;
+  }
+}
+
+.MyBtn {
+  padding: 5px 15px;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
